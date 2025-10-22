@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 })
 
 app.get("/moiz", (req, res) => {
-    res.send("henaaaaaaaa");
+    res.send("Tumhare bhai ne pehli api bana di hai or live bhi kardi hai looooo......");
 })
 app.get("/check", (req, res) => {
     res.send("Bana liya bhai tune Pehla api");
