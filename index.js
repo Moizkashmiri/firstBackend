@@ -14,6 +14,9 @@ app.get("/moiz", (req, res) => {
 app.get("/check", (req, res) => {
     res.send("Bana liya bhai tune Pehla api");
 })
+app.get("/minakshi", (req, res)=>{
+    res.send("Minakshi aap bohot acche lagre the saari mee sacchi me jhakkas");
+})
 
 app.get("/login", (req, res) => {
     res.send("practice karooooo");
